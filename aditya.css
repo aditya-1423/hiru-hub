@@ -1,0 +1,424 @@
+
+
+@media  only screen and (min-width: 642px) and (max-width :1155px)
+
+{
+body {
+
+
+
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    /* background: url('img/img.jpg.jpg'); */
+    /* background: url("img/img2.jpg.jpg") */
+}
+
+header::before {
+
+    content: " ";
+    background: url("img2/img2.jpg.jpg")no-repeat;
+    width: 100%;
+    height: 67rem;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+
+
+}
+
+
+.left {
+    display: inline-block;
+
+    position: absolute;
+    left: 5rem;
+    top: 20px;
+
+    transition: all 60050s ease-in-out;
+
+    /* border: 2px solid rgb(158, 61, 61); */
+
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 65%;
+
+    margin: 45px 65px;
+    /* padding: 3px; */
+
+    /* border: 2px solid rgb(205, 60, 60); */
+
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 10rem;
+    top: 40px;
+
+
+    /* border: 2px solid rgb(180, 45, 45); */
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li a {
+
+    color: rgb(245, 236, 236);
+    text-decoration: none;
+    padding: 34px 23px;
+
+
+}
+
+.navbar li {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+     display: inline-block;
+    padding: 15px  28px;
+    text-shadow: 2px 2px 3px red;
+    width: 30px;
+}
+
+.navbar li a:hover {
+
+    color: rgb(103, 109, 107);
+}
+
+.container {
+    /* border: 2px solid white;
+    border-radius: 25px; */
+    /* padding: 0px 15px 15px; */
+    margin: 1% 34%;
+    padding: 70px 10px 0px;
+    width: 65%;
+
+
+}
+
+h2 {
+    /* text-align: center; */
+    color: white;
+    font-family: cursive;
+    text-shadow: 2px 2px 3px red;
+}
+
+h4 {
+    text-shadow: 2px 2px 3px red;
+}
+
+.lund {
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    display: block;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+.item {
+    text-shadow: 2px 2px 3px red;
+    margin: 5px;
+    padding: 3px;
+    color: whitesmoke;
+    font-family: cursive;
+
+    transition: all 0.4s ease-in-out ;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.ch {
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+
+
+.btn:hover {
+    background-color: rgb(101, 99, 99);
+}
+
+
+.left img {
+    box-shadow: 2px 2px 3px red;
+    width: 60px;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+
+
+}
+
+.btn {
+    box-shadow: 2px 2px 3px red;
+    text-shadow: 2px 2px 3px red;
+    font-family: cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid rgb(241, 232, 232);
+    border-radius: 10px;
+    /* font-size:  14px; */
+    cursor: pointer;
+
+}
+
+.left div {
+    text-shadow: 2px 2px 3px red;
+    font-weight: bold;
+    font-size: 11px;
+
+}
+
+
+
+.left:hover{
+    transform: scale(1.05);
+    transform: rotate(100000005000deg);
+}
+
+form input {
+    text-shadow: 2px 2px 2px red;
+}
+}
+
+
+@media  only screen and (min-width: 150px) and (max-width :642px)
+{
+
+
+    body {
+
+
+
+        font-family: cursive;
+        color: white;
+        background-color: black;
+        margin: 0px;
+        padding: 0px;
+        /* background: url('img/img.jpg.jpg'); */
+        /* background: url("img/img2.jpg.jpg") */
+    }
+    
+    header::before {
+    
+        content: " ";
+        background: url("img2/img2.jpg.jpg")no-repeat  center/cover;
+        width: 24rem;
+        height: 42rem;
+        z-index: -1;
+        top: 0;
+        left: 0;
+        opacity: 0.5;
+        position: absolute;
+    
+    
+    }
+    
+    
+    .left {
+        display: flex;
+        justify-content: center;
+        align-items:center;
+        flex-direction: column;
+        position: relative;
+        
+        top: 10px;
+    
+        transition: all 60050s ease-in-out;
+    
+        /* border: 2px solid rgb(158, 61, 61); */
+    
+    }
+    
+    .mid {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    
+        width: 25rem;
+    
+        margin: 5px 10px;
+        /* padding: 3px; */
+    
+        /* border: 2px solid rgb(205, 60, 60); */
+    
+    
+    }
+    
+    .right {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        right: -8rem;
+        /* top: 40px; */
+
+    
+    
+        /* border: 2px solid rgb(180, 45, 45); */
+    }
+    
+    .navbar {
+        list-style: none;
+    }
+    
+    .navbar li a {
+    
+        color: rgb(245, 236, 236);
+        text-decoration: none;
+        padding: 34px 0px;
+    
+    
+    }
+    
+    .navbar li {
+        /* display: flex;
+        justify-content: center;
+        align-items: center;
+         */
+         display: inline-block;
+        padding: 15px  28px;
+        text-shadow: 2px 2px 3px red;
+        width: 30px;
+    }
+    
+    .navbar li a:hover {
+    
+        color: rgb(103, 109, 107);
+    }
+    
+    .container {
+        /* border: 2px solid white;
+        border-radius: 25px; */
+        /* padding: 0px 15px 15px; */
+        margin: 1% 55%;
+        padding: 108px 60px 0px;
+        width: 50%;
+    
+    
+    }
+    
+    h2 {
+        /* text-align: center; */
+        color: white;
+        font-family: cursive;
+        text-shadow: 2px 2px 3px red;
+        font-size: 9px;
+    margin-bottom: 20px;
+    width: 12rem;
+    }
+    
+    h4 {
+        font-size: 13px;
+        text-shadow: 2px 2px 3px red;
+    }
+    
+    .lund {
+        color: white;
+        margin: 5px;
+        padding: 3px;
+        display: block;
+        border: 2px solid white;
+        border-radius: 10px;
+        background-color: black;
+    }
+    
+    
+    .item {
+        text-shadow: 2px 2px 3px red;
+        margin: 5px;
+        padding: 3px;
+        color: whitesmoke;
+        font-family: cursive;
+    
+        transition: all 0.4s ease-in-out ;
+    }
+    
+    .item:hover {
+        transform: scale(1.1);
+    }
+    
+    .ch {
+        font-family: cursive;
+        font-weight: bold;
+        color: white;
+        margin-top: 15px;
+    }
+    
+    
+    .btn:hover {
+        background-color: rgb(101, 99, 99);
+    }
+    
+    
+    .left img {
+        box-shadow: 2px 2px 3px red;
+        width: 60px;
+    
+    }
+    
+    .navbar li a:hover {
+        text-decoration: underline;
+        color: grey;
+    
+    
+    }
+    
+    .btn {
+        box-shadow: 2px 2px 3px red;
+        text-shadow: 2px 2px 3px red;
+        font-family: cursive;
+        margin: 0px 9px;
+        color: white;
+        background-color: black;
+        padding: 4px 14px;
+        border: 2px solid rgb(241, 232, 232);
+        border-radius: 10px;
+        font-size:  8px;
+        cursor: pointer;
+    
+    }
+    
+    .left div {
+        text-shadow: 2px 2px 3px red;
+        font-weight: bold;
+        font-size: 11px;
+    
+    }
+    
+    
+    
+    .left:hover{
+        transform: scale(1.05);
+        transform: rotate(100000005000deg);
+    }
+    
+    form input {
+        text-shadow: 2px 2px 2px red;
+    }
+}

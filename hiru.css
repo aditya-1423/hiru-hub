@@ -1,0 +1,199 @@
+body {
+
+
+    font-family: cursive;
+    color: white;
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+    /* background: url('img/img.jpg.jpg'); */
+    /* background: url("img/img2.jpg.jpg") */
+}
+
+header::before {
+
+    content: " ";
+    background: url("img2/img2.jpg.jpg")no-repeat center center/cover;
+    width: 100%;
+    height: 70rem;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.5;
+    position: absolute;
+
+
+}
+
+
+.left {
+    display: inline-block;
+
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+    transition: all 60050s ease-in-out;
+
+    /* border: 2px solid rgb(158, 61, 61); */
+
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 62%;
+
+    margin: 20px auto;
+    /* padding: 3px; */
+
+    /* border: 2px solid rgb(205, 60, 60); */
+
+
+}
+
+.right {
+    display: inline-block;
+    position: absolute;
+    right: 34px;
+    top: 20px;
+
+
+    /* border: 2px solid rgb(180, 45, 45); */
+}
+
+.navbar {
+    list-style: none;
+}
+
+.navbar li a {
+
+    color: rgb(245, 236, 236);
+    text-decoration: none;
+    padding: 34px 23px;
+
+
+}
+
+.navbar li {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+     */
+     display: inline;
+    padding: 27px;
+    text-shadow: 2px 2px 3px red;
+}
+
+.navbar li a:hover {
+
+    color: rgb(103, 109, 107);
+}
+
+.container {
+    /* border: 2px solid white;
+    border-radius: 25px; */
+    /* padding: 0px 15px 15px; */
+    margin: 1% 50rem;
+    padding: 70px 10px 0px;
+    width: 35%;
+
+
+}
+
+h2 {
+    /* text-align: center; */
+    color: white;
+    font-family: cursive;
+    font-size: 20px;
+    text-shadow: 2px 2px 3px red;
+}
+
+h4 {
+    text-shadow: 2px 2px 3px red;
+}
+
+.lund {
+    color: white;
+    margin: 5px;
+    padding: 3px;
+    display: block;
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: black;
+}
+
+
+.item {
+    text-shadow: 2px 2px 3px red;
+    margin: 5px;
+    padding: 3px;
+    color: whitesmoke;
+    font-family: cursive;
+
+    transition: all 0.4s ease-in-out ;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.ch {
+    font-family: cursive;
+    font-weight: bold;
+    color: white;
+    margin-top: 15px;
+}
+
+
+.btn:hover {
+    background-color: rgb(101, 99, 99);
+}
+
+
+.left img {
+    box-shadow: 2px 2px 3px red;
+    width: 86px;
+
+}
+
+.navbar li a:hover {
+    text-decoration: underline;
+    color: grey;
+
+
+}
+
+.btn {
+    box-shadow: 2px 2px 3px red;
+    text-shadow: 2px 2px 3px red;
+    font-family: cursive;
+    margin: 0px 9px;
+    color: white;
+    background-color: black;
+    padding: 4px 14px;
+    border: 2px solid rgb(241, 232, 232);
+    border-radius: 10px;
+    /* font-size:  14px; */
+    cursor: pointer;
+
+}
+
+.left div {
+    text-shadow: 2px 2px 3px red;
+    font-weight: bold;
+
+}
+
+
+
+.left:hover{
+    transform: scale(1.05);
+    transform: rotate(100000005000deg);
+}
+
+form input {
+    text-shadow: 2px 2px 2px red;
+}
