@@ -63,7 +63,7 @@ header::before {
 .right {
     display: inline-block;
     position: absolute;
-    right: 6rem;
+    right: 1rem;
     top: 40px;
 
 
@@ -230,7 +230,7 @@ form input {
         content: " ";
         background: url("img2/img2.jpg.jpg")no-repeat  center/cover;
         width: 24rem;
-        height: 42rem;
+        height: 910px;
         z-index: -1;
         top: 0;
         left: 0;
